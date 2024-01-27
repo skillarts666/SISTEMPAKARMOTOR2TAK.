@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.kerusakan1"
+    android:background="@drawable/bgraya"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kerusakan Pilot Jet"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#00850E"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gambar1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gejala :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_gejala"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah tarikan terasa berat?"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah motor sulit dinyalakan?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah aktif mengganti setelan karbu?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah pilot jet memiliki ukuran yang pas?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala4"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah campuran udara dan bensin pada pilot jet karburator sudah cukup?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala5"
+                android:layout_marginTop="30dp"
+                android:text="Solusi :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_cara"
+                android:layout_marginTop="10dp"
+                android:text="Untuk mengatasi tarikan  bawah yang berat, kamu bisa menaikkan pilot jet satu steps aja. Serial Ninja RR menggunakan pilot jet ukuran 22,5 dan kamu bisa menggantinya dengan ukuran 25. Kalau dirasa kenaikan satu step masih belum maksimal, kamu bisa menaikkan satu step lebih tinggi."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

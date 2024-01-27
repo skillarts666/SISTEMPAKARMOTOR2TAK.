@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgraya"
+    tools:context=".activity.kerusakan2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masalah Pompa Air Radiator"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#00850E"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gambar2"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gejala :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_gejala"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah motor cepat panas?"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah air pada reservoir cepat habis?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah proses pendinginan optimal?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah bearing pada pompa mengeluarkan bunyi gesekan?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala4"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah terdapat air radiator yang bocor kedalam mesin? "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala5"
+                android:layout_marginTop="30dp"
+                android:text="Solusi :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_cara"
+                android:layout_marginTop="10dp"
+                android:text="Selalu memeriksa kondisi dan air di dalamnya secara berkala. Tambahkan apabila cairan di dalamnya kurang atau juga kamu dapat menguras serta mengganti coolant-nya. Lakukan juga pemeriksaan rutin pada lempengan plat pada radiator atau radiator core-nya setiap waktu untuk dapat menghindarkan bagian tersebut dari kotoran-kotoran yang dapat menempel dan berisiko menjadi kerak. Jika terdapat kebocoran air di dalam mesin, maka kamu wajib melakukan penurunan mesin pada mekanik  terpercaya."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

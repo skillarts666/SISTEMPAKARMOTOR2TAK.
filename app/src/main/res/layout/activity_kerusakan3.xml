@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgraya"
+    tools:context=".activity.kerusakan3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masalah Kiprok"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#00850E"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gambar3"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gejala :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_gejala"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah sering terjadi motor tiba-tiba mati?"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah tampilan lampu redup?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah lampu beberapa kali mati?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah komponen aki tekor?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala4"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah motor dapat melakukan start tangan? "
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala5"
+                android:layout_marginTop="30dp"
+                android:text="Solusi :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_cara"
+                android:layout_marginTop="10dp"
+                android:text="Hal pertama yang perlu kamu lakukan adalah melakukan pengecekan sistem kelistrikan secara rutin. Sistem kelistrikan ini maksudnya adalah semua komponen secara menyeluruh, termasuk pengecekan pada kiprok."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgraya"
+    tools:context=".activity.kerusakan5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Masalah Membran / Reed Valve"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#00850E"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gambar5"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gejala :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_gejala"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Sudah berapa lamakah usia pemakaian?"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah setelan stopper sudah pas?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah saat di engkol motor mengeluarkan bunyi seperti terompet?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah putaran mesin terasa tertahan?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala4"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah penyetelan karburator masuk ke setelan irit?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala5"
+                android:layout_marginTop="30dp"
+                android:text="Solusi :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_cara"
+                android:layout_marginTop="10dp"
+                android:text="Lakukan pemeriksaan usia pemakaian terlebih dahulu, jika sudah lama, kamu wajib mengganti komponen reed valve. Dan lakukan penyetelan stopper yang pas, penyetelan stopper yang terlalu tinggi membuat lidah reed valve atau membran terbuka lebar secara ekstrim dan membuat tekukan yang membekas. Cobalah meniup katup buluh apakah rapat atau tidak, setelah itu lakukan pemeriksaan pada karet karburator."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

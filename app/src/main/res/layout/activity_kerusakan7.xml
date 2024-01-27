@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgraya"
+    tools:context=".activity.kerusakan7"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overheat"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#00850E"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <ImageView
+                android:id="@+id/image_title"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:src="@drawable/gambar7"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/text_gejala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Gejala :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:id="@+id/gejala1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_gejala"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah knalpot mengeluarkan asap yang berlebih serta bau gosong?"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/gejala2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah pasokan bensin dan oli samping ideal?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah setelan karburator sudah cukup basah?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah sudah dilakukan pengecekan jalur oli sampiing?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/gejala5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala4"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Apakah kualitas air radiator masih layak?"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/text_cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/gejala5"
+                android:layout_marginTop="30dp"
+                android:text="Solusi :"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/cara"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_cara"
+                android:layout_marginTop="10dp"
+                android:text="Hal berikutnya yang perlu diperhatikan pada saat terjadinya overheat adalah cara untuk mengatasinya. Hal ini perlu diketahui agar pemilik tidak perlu panik saat tiba-tiba mesin motor mengalami overheat. Pada dasarnya, mengatasi hal ini sangatlah mudah, asalkan kondisinya tidak terlalu parah. Perlu diketahui bahwa mesin motor yang mengalami overheat akan mati tiba-tiba pada saat digunakan. Saat hal ini terjadi, pengendara motor harus segera mematikan mesin dengan memutar starternya agar off. Selanjutnya, tepikan motor agar aman dari pengendara lain. Hindari untuk langsung menstarter atau berusaha menghidupkan mesin saat terjadi overheat. Tunggu dulu beberapa waktu agar suhu pada mesin motor menurun atau menjadi dingin. Hal ini membutuhkan waktu yang sedikit agak lama, tergantung pada kondisi mesin."
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
